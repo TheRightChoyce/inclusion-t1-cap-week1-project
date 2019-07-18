@@ -1,3 +1,8 @@
 language: node_js
 node_js:
-  - "10"
+- node
+deploy:
+  provider: heroku
+  api_key:
+    secure: zVxJwwWjl5YNS77WvRbfLcgRc8poCYbHKeV9vL4hmB9bU8Psz8ZkdCiTVNrN17opdjOfoBm+EoiPrGx3+9iot711mBmIrFnLoOr6VYqaPjXD/pZGEb8JQeDZJH4LqRJXsDIFT2NTHOD+3gT3koyZIdYDbWYTkbVE/zoWbFPDDJJ3LmQ0fqtxV0TE3436X/zNhkos96k1rtNCk1RlDMtp/fe9NufdgZeHR4iUmgvy47dchSZug5a7KuPzA5G4zWrS5eBQNlx+xCbjssG+xkQQzOFAOWClyGK1ql22oTf8X03xBbtj0IrXLbNEZrr8ZkiyEoJ1ydDzDJa8xZ9r3L7mCaJL5K7lCi07hsXcA9b9PU1/5+TFWAZK91dVX+hdS720zstv/c9ktj7lmX70RMPEPA1tjqXa7PblAxD1zdmy2ft7FDmlg9Sfn0oJ0e0+gkyq2Xd1vU2sffqy1FtuZixpODI4vnbdTrKzvgK1r0x/R6uPWmzuy5riRRqTIH7be0iQwjC9RUTkHPvs1u086M5y7guYNo0FA4JX2zC+4pmEKcf6U3ONbshMnctvL4KQ0+wo/blQNfX2p+x84+36pQ5V3uuvR8ZnFO/XGNtcGZodCxhcTHS4OfXAt3QbQsYJibdSJES1WuO7S/ZrJ7F0Y0gRa0FKb8mtd/8ERyGE691b8z4=
+  app: morning-sands-18647

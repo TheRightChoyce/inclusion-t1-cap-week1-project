@@ -3,14 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "PORT=3001 nodemon ./bin/www"
+    "start": "node ./server/bin/www",
+    "start-dev": "PORT=3001 nodemon ./server/bin/www",
+    "heroku-postbuild": "cd client && yarn && yarn build"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "express": "~4.16.1",
+    "express": "~4.17.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "pug": "^2.0.4"
   }
 }
